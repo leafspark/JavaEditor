@@ -1,2 +1,0 @@
-# JavaEditor
-Simple Java editor
