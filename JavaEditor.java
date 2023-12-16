@@ -149,12 +149,12 @@ If you want to force close things do this:
 class OtherExt extends Frame {
 
     OtherExt() {
-        System.out.println("ExtWorking BEEP (----?---)");
-        System.out.println("ERROR ERROR LOOK +++++++++++++++++");
+        System.out.println("Error3");
+        System.out.println("Error2");
         setTitle("DEBUG");
         setSize(100, 100);
         setVisible(true);
-        TextArea sct = new TextArea("!!! ERROR DEBUG NO SHOW !!! IF SHOW THERE IS ERROR!!! ---+++--- VISIBLE XXX _  NULL _  XXX");
+        TextArea sct = new TextArea("Error");
         sct.setBounds(50, 100, 150, 30);
 
     }
@@ -335,13 +335,11 @@ public class JavaEditor extends Frame implements WindowListener, ComponentListen
     public TextArea area;
 
     JavaEditor() {
-        System.out.println("Working START");
+        System.out.println("Started");
         File theDir = new File("c:/users/chenx/Downloads/javaeditor");
         if (!theDir.exists()) {
             theDir.mkdirs();
         }
-        System.out.println("++++++++++++++++++++++ Good or Not good if not SEEN ++++++++++++++++++");
-        System.out.println("Debug Start x0001-Status Good");
         setTitle("JavaEditor");
         addWindowListener(this);
         addComponentListener(this);
@@ -355,7 +353,7 @@ public class JavaEditor extends Frame implements WindowListener, ComponentListen
         System.out.println("Debug x0002- Status Good-MODE 4"); //debug
         area = new TextArea(""); //replace with wat u want when u start, not recommended as can interfere with other classes/functions
         add(area); // Add Large TextArea AWT
-        System.out.println("Debug Message, Harmless--Code 962"); //debug
+        System.out.println("Debug x0003"); //debug
         MenuBar mb = new MenuBar();
         Menu menu = new Menu("File"); //menu bar --- def: the bar at the top
         //Menu Config
@@ -389,7 +387,7 @@ public class JavaEditor extends Frame implements WindowListener, ComponentListen
         i6.addActionListener(this); //import listener
         i7.addActionListener(this); //import listener
         i1.addActionListener(this); //import listener
-        System.out.println("Debug Message, Harmless--Code 624");
+        System.out.println("Debug x0004");
         //DEBUG DEBUG DEBUG
 
 
