@@ -119,30 +119,6 @@ import java.util.Scanner; //import line
 Import Lines are extremely important because they get packages!!!
 -----------------------------------------------------------------
 
-
-PPS:
-
-If you want to force close things do this:
-//Force "Close"
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 1/8"); //try 1
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 2/8"); //try 2
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 3/8"); //try 3
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 4/8"); //try 4
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 5/8"); //try 5
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 6/8"); //try 6
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 7/8"); //try 7
-            System.exit(0);
-            System.out.println("Error with Stopping! Try 8/8"); //final try 8/8 === ERROR WITH SHUTDOWN
-            System.out.println("Stopping Debug");
-            //End//
-
 -----------------------------------------------------------------
 
  */
