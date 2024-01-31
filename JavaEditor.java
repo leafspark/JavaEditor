@@ -1,18 +1,13 @@
-package main; //________________________________ don't mind it _________________________________________________
+package main;
 /*
 Replace users from chenx to your name LINE 25, 191, 174
 README:
-This Program (JavaEditor)
-Is still in ALPHA/BETA
-
-Bugs are uncommon but not seen a lot
-since this program is so simple
+This Program (JavaEditor) is in beta
+Report bugs in Issues
 
  Codes
   Is a "Note" //Note: ***************
   Is a "Issue" //Issue: ***************
-
-  Note: Read the comments they are helpful
 
   Documentation:
     This program is a starter program like MS Notepad. It's similar but with the purpose
@@ -104,8 +99,6 @@ Extra Info:
 Some info here is not correct so you should still read the AWT, Swing, and Java wikis
 
     -Tom Zhang
-
-
 
 
  */
@@ -382,9 +375,8 @@ public class JavaEditor extends Frame implements WindowListener, ComponentListen
 
     @Override
     public void windowClosing(WindowEvent e) {
-        System.out.println("Working Close"); //Ignore
+        System.out.println("Working Close");
         dispose();      //CLOSE
-        //System.out.println("ERROR WITH CLOSEING"); //Ignore
     }
 
     @Override
@@ -462,21 +454,6 @@ public class JavaEditor extends Frame implements WindowListener, ComponentListen
         if (e.getActionCommand() == "Force Close") {
             //Force "Close"
             System.exit(0);
-            System.out.println("Did not Stop? Trying 1/8"); //try 1
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 2/8"); //try 2
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 3/8"); //try 3
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 4/8"); //try 4
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 5/8"); //try 5
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 6/8"); //try 6
-            System.exit(0);
-            System.out.println("Did not Stop? Trying 7/8"); //try 7
-            System.exit(0);
-            System.out.println("Error with Stopping! Try 8/8"); //final try 8/8 === ERROR SHUTDOWN
             System.out.println("Stopping Debug");
             //End//
         }
