@@ -2,17 +2,13 @@
 Simple Java editor
 
 
-This Program (JavaEditor)                                      
-Is still in ALPHA/BETA
+This Program (JavaEditor) is still in beta
 
-Bugs are uncommon but not seen a lot
-since this program is so simple
+Create issues for bugs
 
  Codes
   Is a "Note" //Note: ***************
   Is a "Issue" //Issue: ***************
-
-  Note: Read the comments they are helpful
 
   Documentation:
     This program is a starter program like MS Notepad. It's similar but with the purpose
@@ -49,13 +45,6 @@ colorful background or some colored and beautiful buttons and objects in the Fra
 Although I don't know too much about Swing, you also need to import it with javax: import javax.swing.*. A Frame is called a Frame in AWT, but in the Swing library, it's called a JFrame. The button is also called a JButton too! It's the same thing
 as in AWT. So it's JButton b = new JButton! Also you need to make it visible too and change it's x, y, z. Things are similar in Swing but just with different names. There are many more objects in Swing and AWT that this guide can't cover them alL!
 There are more advanced version of these graphic APIs like DirectX 12 and OpenGL and OpenCL but they are much more harder to learn.
-
-
-
-
-
-
-
 
 
 
